@@ -1,5 +1,5 @@
 import React from "react";
-import skill from "../assets/Skills.png"; // Replace with your image path
+import skill from "../assets/skills.png"; // Replace with your image path
 
 const WorkExperience = () => {
   const experiences = [
