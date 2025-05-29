@@ -3,11 +3,11 @@ import skill from "../assets/skills.png"; // Replace with your image path
 
 const WorkExperience = () => {
   const experiences = [
-    { title: "Edu Resource Management", description: "Developed a resource management platform with AI features for booking recognization" },
-    { title: "Cross-Platform E-Commerce Web application", description: "Built an app for electronic devices with secure payment integration." },
-    { title: "Internship at RikkeiSoft", description: "Enhanced back-end development skills through real-world projects." },
-    { title: "MultiShoes E-Commerce Web application", description: "Created responsive websites for small businesses and startups." },
-  ];
+    { title: "Edu Resource Management", description: "Developed AI-driven resource management platform with smart booking recognition." },
+    { title: "Cross-Platform E-Commerce Web application", description: "Built secure, cross-platform e-commerce app for electronic devices." },
+    { title: "Internship at Rikkeisoft", description: "Gained practical back-end and front-end development experience on real projects." },
+    { title: "MultiShoes E-Commerce Web application", description: "Created an e-commerce website for selling shoes online." }
+]
 
   return (
     <section id="work" className="work">
