@@ -1,0 +1,54 @@
+.work {
+  background-color: #1E1E2F; /* Màu nền tối */
+  color: #FFFFFF; /* Màu chữ trắng */
+  padding: 4rem 2rem; /* Khoảng cách trên và dưới */
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #6C63FF; /* Màu tím nhấn */
+}
+
+.work-grid {
+  display: grid; /* Sử dụng CSS Grid */
+  grid-template-columns: repeat(2, 1fr); /* 2 cột */
+  gap: 2rem; /* Khoảng cách giữa các ô */
+  margin-top: 2rem;
+}
+
+.work-card {
+  background-color: #2A2A40; /* Màu nền của từng ô */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+  transition: transform 0.3s, box-shadow 0.3s; /* Hiệu ứng hover */
+}
+
+.work-card:hover {
+  transform: translateY(-5px); /* Hiệu ứng nổi lên khi hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.work-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+.work-card p {
+  font-size: 1rem;
+  color: #CCCCCC; /* Màu chữ xám nhạt */
+  line-height: 1.6;
+}
+
+.work-skills img {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

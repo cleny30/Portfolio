@@ -1,0 +1,83 @@
+.example-projects {
+  background-color: #1E1E2F; /* Màu nền tối */
+  color: #FFFFFF; /* Màu chữ trắng */
+  padding: 4rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  gap: 2rem;
+}
+
+.project.reverse {
+  flex-direction: row-reverse; /* Đảo ngược thứ tự hình ảnh và nội dung */
+}
+
+.project-image {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 400px; /* Đặt chiều cao cố định cho hình ảnh */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Ẩn ảnh ban đầu */
+  transition: opacity 0.8s ease-in-out; /* Hiệu ứng chuyển đổi mượt */
+}
+
+.project-image img.active {
+  opacity: 1; /* Hiển thị ảnh hiện tại */
+}
+
+.project-content {
+  max-width: 500px;
+}
+
+.featured {
+  font-size: 1rem;
+  color: #6C63FF; /* Màu tím nhấn */
+  margin-bottom: 0.5rem;
+}
+
+.project-content h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #CCCCCC; /* Màu chữ xám nhạt */
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project.reverse {
+    flex-direction: column; /* Đảo ngược không cần thiết trên màn hình nhỏ */
+  }
+
+  .project-image {
+    max-width: 100%;
+    height: auto;
+  }
+}

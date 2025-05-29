@@ -1,0 +1,38 @@
+.about {
+    background-color: #2A2A40; /* Màu nền tối hơn để phân biệt với Hero và Work */
+    color: #FFFFFF;
+    padding: 4rem 2rem; /* Khoảng cách trên và dưới */
+    justify-content: center ;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #6C63FF; /* Màu tím nhấn */
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #CCCCCC; /* Màu chữ xám nhạt */
+  }
+  
+  .about-list {
+    list-style: disc;
+    margin: 1rem 0 1.5rem 2rem; /* Thụt lề cho danh sách */
+    text-align: left; /* Căn trái danh sách */
+    color: #FFFFFF;
+  }
+  
+  .about-list li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+  }
+  
+  .highlight {
+    color: #6C63FF; /* Màu tím nhấn */
+    font-weight: bold;
+  }
