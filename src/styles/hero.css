@@ -77,3 +77,23 @@ h3 .highlight {
     opacity: 0;
   }
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .image-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}

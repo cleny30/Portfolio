@@ -36,3 +36,14 @@
     color: #6C63FF; /* Màu tím nhấn */
     font-weight: bold;
   }
+
+  /* Responsive styles */
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}

@@ -21,3 +21,14 @@ body {
   margin: 0 auto; /* Căn giữa theo chiều ngang */
   padding: 0 1rem; /* Thêm khoảng cách hai bên */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Giảm kích thước font chữ trên thiết bị nhỏ */
+  }
+}
