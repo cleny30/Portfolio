@@ -6,7 +6,7 @@ const WorkExperience = () => {
     { title: "Edu Resource Management", description: "Developed AI-driven resource management platform with smart booking recognition." },
     { title: "Cross-Platform E-Commerce Web application", description: "Built secure, cross-platform e-commerce app for electronic devices." },
     { title: "Internship at Rikkeisoft", description: "Gained practical back-end and front-end development experience on real projects." },
-    { title: "MultiShoes E-Commerce Web application", description: "Created an e-commerce website for selling shoes online." }
+    { title: "MultiShop E-Commerce Web application", description: "Created an e-commerce website for selling shoes online." }
 ]
 
   return (

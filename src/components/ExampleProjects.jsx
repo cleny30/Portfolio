@@ -27,9 +27,9 @@ const ExampleProjects = () => {
         },
         {
             feature: "Featured Project",
-            title: "MultiShoes E-Commerce Web application",
+            title: "MultiShop E-Commerce Web application",
             description:
-                "MultiShoes is an e-commerce web application focused on footwear, offering a seamless online shopping experience. The back-end is built with ASP.NET Core to create a RESTful API, ensuring high performance and security. The front-end is designed using React JS, providing a user-friendly and responsive interface. The application supports product browsing, cart management, secure checkout, and user management.",
+                "MultiShop is an e-commerce web application focused on footwear, offering a seamless online shopping experience. The back-end is built with ASP.NET Core to create a RESTful API, ensuring high performance and security. The front-end is designed using React JS, providing a user-friendly and responsive interface. The application supports product browsing, cart management, secure checkout, and user management.",
             images: [
                 "https://i.ibb.co/zWfkzY8w/ex2-1.png",
                 "https://i.ibb.co/pBrxvY2P/ex2-2.png",
